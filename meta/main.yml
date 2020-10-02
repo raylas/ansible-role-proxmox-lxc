@@ -1,0 +1,11 @@
+dependencies: []
+
+galaxy_info:
+  author: raylas
+  description: Creation and basic provisioning of LXC containers on Proxmox
+  license: license (MIT)
+  min_ansible_version: 2.9
+  galaxy_tags:
+    - system
+    - proxmox
+    - lxc

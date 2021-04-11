@@ -1,6 +1,7 @@
 dependencies: []
 
 galaxy_info:
+  role_name: proxmox_lxc
   author: raylas
   description: Creation and basic provisioning of LXC containers on Proxmox
   license: license (MIT)

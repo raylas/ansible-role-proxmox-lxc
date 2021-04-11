@@ -13,6 +13,7 @@
     memory: '{{ hostvars[item].memory | default(defaults.memory.ct) }}'
     swap: '{{ hostvars[item].swap | default([]) }}'
     onboot: '{{ hostvars[item].onboot | default(defaults.onboot) }}'
+    unprivileged: '{{ hostvars[item].unprivileged | default(defaults.unprivileged) }}'
     pubkey: '{{ hostvars[item].pubkey | default(defaults.pubkey) }}'
     searchdomain: '{{ hostvars[item].searchdomain | default(defaults.searchdomain) }}'
     nameserver: '{{ hostvars[item].nameserver | default(defaults.nameserver) }}'
